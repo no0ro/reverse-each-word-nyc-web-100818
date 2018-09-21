@@ -8,7 +8,7 @@ end
 
 
 
-def reverse_each_word2 (phrase)
+def reverse_each_word (phrase)
   array = []
   phrase.split.collect do |x|
     array << x.reverse 
