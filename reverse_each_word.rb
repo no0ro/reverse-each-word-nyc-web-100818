@@ -9,7 +9,7 @@ end
 
 
 def reverse_each_word2 (phrase)
-  phrase.split.collect! do |x|
+  phrase.split.collect do |x|
     x.reverse 
   end
 end
