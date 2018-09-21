@@ -1,4 +1,3 @@
-=begin
 def reverse_each_word (phrase)
   new_array = []
   phrase.split.each do |x|
@@ -6,10 +5,10 @@ def reverse_each_word (phrase)
   end
   new_array.join(" ")
 end 
-=end 
 
 
-def reverse_each_word (phrase)
+
+def reverse_each_word2 (phrase)
   phrase.split.collect! do |x|
     x.reverse 
   end
