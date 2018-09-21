@@ -9,7 +9,9 @@ end
 
 
 def reverse_each_word2 (phrase)
+  array = []
   phrase.split.collect do |x|
-    x.reverse 
+    array << x.reverse 
   end
+  array.join(" ")
 end
